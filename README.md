@@ -27,3 +27,7 @@ exec.Command("powershell", "-Command", "Set-MpPreference -ExclusionExtension *.s
 ```
 ## Credits
 - Credits to ZeroMemoryX 👍
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
